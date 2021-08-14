@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+:root {
+    --primary-color: #3c6e71;
+    --secondary-color: #353535;
+    --text-color: #d9d9d9;
+    --highlight-color: #ffff;
+    --highlight-color-dark: #284b63;
+}
+
+* {
+    color: var(--text-color);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.info {
+    background-color: var(--primary-color);
+    overflow:hidden;
+}
+
+.info a {
+    text-decoration: none;
+    color: var(--highlight-color);
+}
+
+.info a:hover {
+    color: var(--highlight-color-dark);
+}
+
+.info i {
+    padding: 3px;
+}
+
+.info i:hover {
+    color: var(--highlight-color-dark);
+}
+
+.info .skills {
+    text-align: left;
+}
+
+.profile-pic {
+    border-radius: 60%;
+    height: 150px;
+    width: 150px;
+}
+
+.content {
+    background-color: var(--secondary-color);
+}
+
+.projects .card {
+    background-color: var(--highlight-color-dark);
+}
+
+.projects .card a {
+    text-decoration: none;
+    color: var(--highlight-color);
+}
+
+.projects .card a:hover{
+    color: var(--primary-color);
+}
+
+@media (min-width: 768px){
+    body {
+        overflow: hidden;
+    }
+
+    .content {
+        height: 100vh;
+        overflow-y:scroll;
+    }
+}
