@@ -13,13 +13,16 @@
     font-family: 'Chakra Petch', sans-serif;
 }
 
+a {
+    text-decoration: none!important;
+}
+
 .info {
     background-color: var(--primary-color);
     overflow:hidden;
 }
 
 .info a {
-    text-decoration: none;
     color: var(--highlight-color);
 }
 
@@ -28,7 +31,7 @@
 }
 
 .info i {
-    padding: 3px;
+    padding: 0px 10px;
 }
 
 .info i:hover {
@@ -51,15 +54,35 @@
 
 .projects .card {
     background-color: var(--highlight-color-dark);
+    margin-top: 30px;
 }
 
 .projects .card a {
-    text-decoration: none;
     color: var(--highlight-color);
 }
 
-.projects .card a:hover{
+.projects .card .card-text a:hover{
     color: var(--primary-color);
+}
+
+.p5 {
+    background-color: #ed225d;
+    color: whitesmoke;
+}
+
+.js {
+    background-color: #f0db4f;
+    color: var(--secondary-color);
+}
+
+.laravel{
+    background-color: #f05340;
+    color: whitesmoke;
+}
+
+.mysql {
+background-color: #00758f;
+color: whitesmoke;
 }
 
 @media (min-width: 768px){
