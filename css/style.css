@@ -17,6 +17,26 @@ a {
     text-decoration: none!important;
 }
 
+.p5 {
+    background-color: #ed225d;
+    color: whitesmoke;
+}
+
+.js {
+    background-color: #f0db4f;
+    color: var(--secondary-color);
+}
+
+.laravel{
+    background-color: #f05340;
+    color: whitesmoke;
+}
+
+.mysql {
+    background-color: #00758f;
+    color: whitesmoke;
+}
+
 .info {
     background-color: var(--primary-color);
     overflow:hidden;
@@ -52,6 +72,12 @@ a {
     background-color: var(--secondary-color);
 }
 
+.projects iframe {
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
 .projects .card {
     background-color: var(--highlight-color-dark);
     margin-top: 30px;
@@ -63,26 +89,6 @@ a {
 
 .projects .card .card-text a:hover{
     color: var(--primary-color);
-}
-
-.p5 {
-    background-color: #ed225d;
-    color: whitesmoke;
-}
-
-.js {
-    background-color: #f0db4f;
-    color: var(--secondary-color);
-}
-
-.laravel{
-    background-color: #f05340;
-    color: whitesmoke;
-}
-
-.mysql {
-background-color: #00758f;
-color: whitesmoke;
 }
 
 @media (min-width: 768px){
